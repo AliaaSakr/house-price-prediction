@@ -10,6 +10,9 @@ This project focuses on building an end-to-end data science workflow to predict 
 
 ##  Key Methodologies & Workflow
 * **Exploratory Data Analysis (EDA):** Identified skewness, handled missing values, and treated outliers in housing features.
+
+<img width="582" height="182" alt="image" src="https://github.com/user-attachments/assets/4de1df1a-f44c-42d8-8ed7-4df85be5a1ac" />
+
 * **Feature Engineering & Reduction:** Created custom interaction terms and applied Principal Component Analysis (PCA) to reduce dimensionality while preserving variance.
 * **Pipeline Construction:** Built reproducible Scikit-Learn pipelines to prevent data leakage during preprocessing.
 * **Model Stacking:** Combined multiple base learners using a Meta-Regressor to optimize prediction accuracy ($R^2$ score).
