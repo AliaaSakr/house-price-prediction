@@ -6,11 +6,16 @@
 ##  Project Overview
 This project focuses on building an end-to-end data science workflow to predict residential house prices. The core objective was to handle complex, high-dimensional housing data through rigorous feature engineering and robust ensemble modeling.
 
+<img width="586" height="174" alt="image" src="https://github.com/user-attachments/assets/99b2c4f7-58c8-4e5d-9a73-b911afb511cd" />
+
 ##  Key Methodologies & Workflow
 * **Exploratory Data Analysis (EDA):** Identified skewness, handled missing values, and treated outliers in housing features.
 * **Feature Engineering & Reduction:** Created custom interaction terms and applied Principal Component Analysis (PCA) to reduce dimensionality while preserving variance.
 * **Pipeline Construction:** Built reproducible Scikit-Learn pipelines to prevent data leakage during preprocessing.
 * **Model Stacking:** Combined multiple base learners using a Meta-Regressor to optimize prediction accuracy ($R^2$ score).
+
+<img width="755" height="140" alt="image" src="https://github.com/user-attachments/assets/5a5590e4-cf6c-469b-8c84-9fe92e0470b0" />
+
 * **Hyperparameter Tuning:** Automated optimization using `GridSearchCV`.
 
 * ## Results & Key Takeaways
